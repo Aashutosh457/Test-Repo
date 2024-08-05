@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+    font-family: 'Jost', sans-serif;
+    background-color: #fffdfd;
+}
+
+header {
+    background-color: #dde3e5;
+    color: #1e1616;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 200px; 
+    height: 80px; 
+    padding: 10px;
+  }
+  
+  .logo img {
+    max-width: 100%; 
+    max-height: 180%; 
+    display: block;
+    margin-top: -13% ;
+  }
+  
+
+.navmenu {
+    column-gap: 50px;
+    list-style: none;
+    display: flex;
+    font-size: 23px;
+}
+
+.navmenu li {
+    margin-right: 20px;
+}
+
+.navmenu a {
+    text-decoration: none;
+    color: #484343;
+    font-weight: bold;
+}
+
+.nav-icon {
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-search {
+    position: relative;
+    top: 4px;
+    height: 32px;
+    width: 220px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.bx-search {
+    position: absolute;
+    right: 8px;
+    top: 50%; /* adjusted from 18px */
+    transform: translateY(-50%); /* added */
+    font-size: 18px;
+}
+
+.navSearchdiv {
+    position: relative;
+}
+
+.nav-icon li {
+    margin: 10px;
+}
+
+.content-B {
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.image-section {
+    width: 40%;
+    float: right;
+    padding: 0px 30px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-B h3 {
+    color: #222;
+    letter-spacing: 1px;
+}
+
+.content-B p {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #dcbcbc;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 43px 0;
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+}
+.about-N{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.container-F {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.f-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1 1 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-col a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 25px;
+}
